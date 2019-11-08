@@ -13,7 +13,7 @@ import numpy as np
 arquivo = input ("Arquivo a ser modificado ( + .csv):\n") #recebe arquivo
 coluna = input("Nome da coluna a ser transformada em linha:\n")#recebe nome da coluna
 
-data = read_csv('fornecedores_1.csv', sep = ',')
+data = read_csv(arquivo, sep = ',')
 
 for i in data['nid'].unique(): #percorre todos os nids
     
