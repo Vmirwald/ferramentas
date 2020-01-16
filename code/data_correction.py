@@ -9,7 +9,7 @@ Created on Wed Sep  4 16:36:09 2019
 import pandas as pd
 from pandas import DataFrame as df
 
-
+#TESTE
 arquivo = input('Entre com o nome do arquvivo sem .csv \n')
 campo = input('Entre com o nome da coluna \n')
 
